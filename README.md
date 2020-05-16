@@ -175,6 +175,8 @@ You can place breakpoints with:
 
 And then run `dc` to start the debugging process and to continue after hitting a breakpoint.
 
+Press `s` for stepping to the next instruction. This is equivalent to `ni` in GDB. It'd step into functions, too. If you don't want that, use `S` in that occassion.   
+
 You can write values using `dr [register]=[value]`
 
 Check out `d?` and `db?`.
@@ -208,7 +210,9 @@ You can change the default layout of the graph, the different boxes, by pressing
 
 ---
 
-## Special utilities
+## Miscellaneous
+
+### Grep
 radare2 has a built in grep option, and the command is `~`. If you want to get a list of all the comparisons. You can:
 
 	`:> pdf~cmp`
@@ -220,6 +224,10 @@ You can also print to STDOUT in JSON format, which is easier for scripiting, by 
 	`pdj~{}`
 
 ---
+
+### Theme
+You can set your colors or theme using the `eco` command.
+
 
 ## Further help
 radare2 has a wonderful community online, and if you need any help, you can get on the [Telegram channel](t.me/radare).
