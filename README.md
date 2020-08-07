@@ -188,7 +188,7 @@ For that, the Visual Panel Mode might help.
 ---
 
 ## Visual Panel Mode - `!`
-Press `!` while in Visual mode to access the Visual Panel mode. You'll probably encounter three panels.
+Run `v` to get into the Visual Panel mode. If you are already in Visual mode, you can just press `!` to access the Visual Panel mode, too. You'll probably encounter three panels.
 
 You can cycle through each tabs by pressing `Tab`. And press `"` to change the content of the selected panel.
 
